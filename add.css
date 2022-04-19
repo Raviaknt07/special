@@ -1,0 +1,264 @@
+html{
+    background-image: url(./28947318.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+@media all and (max-width:1200px) {
+    html{display: block;
+        background-repeat: repeat-y;
+        /* height: auto; */
+        width: auto;
+    }
+}
+.class1{
+    color: red;
+    size: 10px;
+    font-size: 12px;
+}
+h1{
+    color:   red;
+    font-size: 60px;
+     
+    margin: 0;
+    /* text-align: center; */
+    align-content: space-between;
+    align-self: center;
+    align-content: center;
+    align-self: center;
+    
+    
+}
+
+.class4{
+    width: 400px;
+    position: relative;
+    left: 1050px;
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+@media all and (max-width:1200px) {
+    .class4{
+         display: flex;
+         flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     position: relative;
+     left: auto;
+        
+    }
+}
+.class5{
+    border: 0ch;
+    display: flex;
+}
+button{
+    border: 0;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.class6{
+    width: 30px;
+    height: 30px;
+    
+}
+@media all and (max-width:1200px) {
+    .class6{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+}
+h5{
+    font-size: 30px;
+    color: red;
+    text-align: start;
+    align-self: flex-start;
+    text-shadow: 2px 2px white;
+}
+.class8{
+    height: 250px;
+    width: 220px;
+    background-size: cover;
+    border-radius: 10px;
+    font-size: 10px;
+padding: 20px 25px;
+color: white;
+}
+@media all and (max-width:1200px) {
+    .class8{
+        display:flex;
+        height: 300px;
+        width: auto;
+    }
+}
+.class8:hover{
+   
+    position: relative;
+    bottom: 5px;
+}
+.class12{
+    background-image: url(./birthdaylr.jpeg);
+    background-size: cover;
+    height: 320px;
+    width: 300px;
+    text-align: end;
+}
+.class9{
+    background-image: url(./IMG-20210404-WA0013.jpg);
+    height: 320px;
+    width: 300px;
+}
+.class10{
+    background-image: url(./anniversery.jpeg);
+    height: 700px;
+    width: 300px;
+}
+.class11{
+    background-image: url(./firstmeet.jpeg);
+    height: 600px;
+    width: 300px;
+
+}
+.class7{
+    width: 600px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+     }
+     @media all and (max-width:1200px) {
+        .class7{
+            display: flex;
+            height: auto;
+            width: auto ;
+            margin: 0 auto;
+            flex-direction: row;
+            justify-items: center;
+            justify-self: center;
+             
+        }
+    }
+.class3{
+    color: white;
+ 
+    overflow-wrap: break-word;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+@media all and (max-width:1200px) {
+    .class3{
+        display: block;
+        height: auto;
+        width: auto;
+        
+    }
+}
+.class21{
+    color: rgb(238, 255, 0);
+    
+}
+ .class13{
+     font-weight: bold;
+     color: black;
+     width: 140px;
+     height: 30px;
+     background-color: white;
+     border-radius: 20px;
+}
+@media all and (max-width:1200px) {
+    .class13{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+}
+.class15{
+    width: 100px;
+    }
+    @media all and (max-width:1200px) {
+        .class15{
+            display: block;
+            height: auto;
+            width: auto;
+        }
+    }
+.class14{
+   position:absolute;
+   top: 50px;
+   left: 50px;
+}
+@media all and (max-width:1200px) {
+    .class14{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+}
+.class23{
+    color: rgb(240, 10, 156);
+    font-size: 20px;
+    text-align: start;
+    align-self: flex-end;
+    position: relative;
+    right: 70px;
+}
+.class24{
+    font-size: 20px;
+    text-align: start;
+    align-self: flex-end;
+    width: 120px;
+    position: relative;
+    right: 70px;
+    color: rgb(164, 239, 12);
+}
+.class25{
+    font-size: 20px;
+    text-align: end;
+    align-self: flex-start;
+    width: 150px;
+    position:  relative;
+    left: 20px;
+    color:rgb(246, 70, 17);
+}
+.class26{
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+ text-shadow: 2px 2px white;
+ width: 300px;
+ background-color: aliceblue;
+ animation-name: ravi;
+    transition-property: all;
+ animation-duration: 2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes ravi{
+    0%{
+transform: scale(1,1);
+transform: rotate(0deg);
+    }
+    100%{
+        transform: scale(2,2);
+        transform: rotate(20deg);
+    }
+}
+.class27{
+    font-size: 25px;
+    text-align: start;
+    align-self: flex-end;
+    color: rgb(102, 255, 0);
+}
+.class31{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    margin: 10px 50px;
+}
